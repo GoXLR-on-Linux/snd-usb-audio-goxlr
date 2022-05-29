@@ -23,7 +23,7 @@ Fetching these will be different depending on your distribution, please consult 
 Simply run the following:
 
 ```
-git clone https://...
+git clone https://github.com/GoXLR-on-Linux/snd-usb-audio-goxlr.git
 sudo mv snd-usb-audio-goxlr /usr/src/
 sudo dkms install snd-usb-audio/goxlr
 ```
