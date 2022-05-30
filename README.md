@@ -6,10 +6,14 @@ been fixed, it will take time (potentially years in some LTS releases) for this 
 This DKMS module is designed to attempt to patch the fix into any 5.15 - 5.19 kernel, by downloading the kernel sources, patching the USB Audio driver, and installing it.
 
 *WARNING*: Here be dragons.  
-While DKMS is pretty common and standardised, this fix has currently only been tested on Manjaro, there's no reason why this wont work on other distributions, however, YMMV. If your
+While DKMS is pretty common and standardised and there shouldn'nt be a reason this wont work with your distribution, YMMV. If your
 distribution uses out-of-band patches on the snd-usb-audio kernel driver, these will be removed by this DKMS module.
 
 Use of this code is 'at your own risk', the GoXLR on Linux team accept no responsibility (either implied or otherwise) for any problems this may cause.
+
+## Tested working Distributions
+Manjaro KDE / Gnome - Kernel 5.17
+Pop!_OS 22.04 LTS - Kernel 5.17
 
 ## Requirements
 * dkms
