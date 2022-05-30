@@ -12,7 +12,7 @@ distribution uses out-of-band patches on the snd-usb-audio kernel driver, these 
 Use of this code is 'at your own risk', the GoXLR on Linux team accept no responsibility (either implied or otherwise) for any problems this may cause.
 
 ## Tested working Distributions
-Manjaro KDE / Gnome - Kernel 5.17
+Manjaro KDE / Gnome - Kernel 5.17  
 Pop!_OS 22.04 LTS - Kernel 5.17
 
 ## Requirements
