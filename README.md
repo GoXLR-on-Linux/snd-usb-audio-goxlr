@@ -1,12 +1,19 @@
 # GoXLR DKMS Module
 
+## This repository is now archived.
+
+The patch that this repository implements is now available in most mainline kernels removing the need for the DKMS based fix. To have out-of-the-box support for the GoXLR on linux, please ensure you are running one of the following kernels:
+
+```
+5.15 Kernels: 5.15.44+ (LTS Kernel)
+5.17 Kernels: 5.17.13+
+5.18 Kernels: 5.18.2+
+5.19 and above: All supported
+```
+
+Please check with your distribution as to which kernels are available, and upgrade where possible. This repository will remain in an arcived state for legacy reasons.
+
 ## Note
-```
-The kernel versions 5.15.46, 5.17.15 (last patch before EOL), 
-5.18.3, and 5.19-rc1 already have the patch. 
-5.16 has passed EOL, so isn't receiving patches, 
-if you're running a 5.16 kernel, please upgrade.
-```
 Between kernels 5.11 and 5.19rc1 there has been a bug in the Linux Kernel which prevents the GoXLR from functioning correclty under pipewire based systems. While this bug has
 been fixed, it will take time (potentially years in some LTS releases) for this fix to make it into various Linux distributions.
 
